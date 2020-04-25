@@ -10,5 +10,5 @@ macro_rules! t {
 }
 
 fn main() {
-    re!(t(1));
+    re!(t("hi"));
 }
