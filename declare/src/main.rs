@@ -5,10 +5,10 @@ pub use mac::re;
 
 macro_rules! t {
     ($e:expr) => {
-        e
+        e.to_string + " I am a macro"
     }
 }
 
 fn main() {
-    re!(t("hi"));
+    re!(t!("hi"));
 }
